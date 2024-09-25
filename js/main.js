@@ -19,7 +19,12 @@ buttonHistory.addEventListener('click', function () {
     buttonHistory.classList.add('bg-green');
     buttonDonation.classList.remove('bg-green');
 })
-
+// toggle blog //
+document.getElementById('blog-info').addEventListener('click', function (event) {
+    event.preventDefault();
+    console.log('blog-info')
+    window.location.href = './blog.html';
+})
 
 // -------------------------------------------
 

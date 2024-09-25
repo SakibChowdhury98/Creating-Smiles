@@ -1,14 +1,11 @@
 document.getElementById('home-info').addEventListener('click', function (event) {
     event.preventDefault();
-    window.location.href = './index.html'
+    console.log('home-info')
+    window.location.href = './index.html';
 })
 // -------------------------------------------
 
-// toggle blog //
-document.getElementById('blog-info').addEventListener('click', function (event) {
-    event.preventDefault();
-    window.location.href = './blog.html'
-})
+
 // -------------------------------------------
 
 // function of getting input field of write donation amount //
